@@ -14,6 +14,8 @@ const getModuleName = (type) => {
     // react-native-macos is renamed from react-native-desktop
     case 'desktop':
       return 'react-native-desktop';
+    case 'yoco-react-native':
+      return 'yoco-react-native';
     default:
       return 'react-native';
   }

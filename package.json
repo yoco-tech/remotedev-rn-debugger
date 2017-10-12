@@ -1,6 +1,6 @@
 {
-  "name": "remote-redux-devtools-on-debugger",
-  "version": "0.7.1",
+  "name": "@yoco-tech/remote-redux-devtools-on-debugger",
+  "version": "0.7.2",
   "description": "Injecting remote-redux-devtools / remotedev monitor into react-native debugger",
   "main": "lib/main.js",
   "files": [
@@ -71,7 +71,7 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "minimist": "^1.2.0",
-    "remotedev-server": "^0.2.2"
+    "@yoco-tech/remotedev-server": "^0.2.6"
   },
   "peerDependencies": {
     "remote-redux-devtools": ">= 0.2.0"

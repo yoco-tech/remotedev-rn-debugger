@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import injectServer from 'remotedev-server/bin/injectServer';
+import injectServer from '@yoco-tech/remotedev-server/bin/injectServer';
 
 const name = 'remote-redux-devtools-on-debugger';
 const startFlag = `/* ${name} start */`;

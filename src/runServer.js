@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import startRemoteDev from 'remotedev-server';
+import startRemoteDev from '@yoco-tech/remotedev-server';
 
 const readFile = filePath =>
   fs.readFileSync(path.resolve(process.cwd(), filePath), 'utf-8');
