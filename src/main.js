@@ -15,7 +15,7 @@ const getModuleName = (type) => {
     case 'desktop':
       return 'react-native-desktop';
     case 'yoco-react-native':
-      return 'yoco-react-native';
+      return '@yoco-tech/react-native';
     default:
       return 'react-native';
   }
